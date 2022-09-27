@@ -19,14 +19,14 @@
   <header>
     <style>
       #intro {
-        background-image: url("https://news.wisc.edu/content/uploads/2020/04/Aerial_Campus18_9796-1024x683.jpg");
-        height: 100vh;
+        background-image: url("https://mdbcdn.b-cdn.net/img/Photos/Slides/2.webp");
+        height: 30vh;
       }
 
       /* Height for devices larger than 576px */
       @media (min-width: 992px) {
         #intro {
-          margin-top: -58.59px;
+          margin-top: 28.59px;
         }
       }
 
@@ -36,7 +36,7 @@
     </style>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark scrolling-navbar" style="z-index: 2000;">
       <div class="container-fluid">
         <!-- Navbar brand -->
         <a class="navbar-brand nav-link" target="_blank" >
@@ -52,7 +52,10 @@
               <a class="nav-link" href="#about">Introduction</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#list">Course List</a>
+              <a class="nav-link" href="#csmath">CS+MATH</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#list">General Education</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#details">Course Details</a>
@@ -108,7 +111,8 @@
               style=" margin-right: 15%; border-radius: 50%;" alt="profile-pic">
           </div>
 
-          <div id="about" class="col-md-6 gx-5 mb-4">
+          <br id="about"></br>
+          <div  class="col-md-6 gx-5 mb-4">
             
             <h1><strong>Introduction</strong></h1>
             <p class="text-muted"><strong>
@@ -131,11 +135,206 @@
       </section>
       <!--Section: Content-->
 
+
+      <!--cs course abstract-->
+      <br><br>
+      <hr class="mb-5" id="csmath" />
+      <section>
+          <h1 class="h1 text-center mb-5">Computer Science & Math Course List</h1>
+          <div class="container wow fadeIn">
+              <table class="table table-striped table-bordered" data-toggle="table" data-search="true"
+                  data-pagination="true">
+                  <thead>
+                      <tr>
+                          <th scope="col" data-sortable="true">Course Name</th>
+                          <th scope="col">Course Topic</th>
+                          <th scope="col" data-sortable="true">Semester</th>  
+                          <th scope="col" data-sortable="true">Instructor</th>    
+                      </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row"><a href="#cs561">COMP SCI/ECE 561</a></th>
+                      <td><strong>Probability and Information Theory in Machine Learning</strong></td>
+                      <td>Fall 2022</td>   
+                      <td>Kangwook Lee</td>     
+                  </tr>
+                    <tr>
+                      <th scope="row"><a href="#cs567">COMP SCI/BMI 567</a></th>
+                      <td><strong>Medical Image Analysis</strong></td>
+                      <td>Fall 2022</td> 
+                      <td>Vikas Singh</td>      
+                  </tr>
+                    <tr>
+                      <th scope="row"><a href="#math475">MATH 475</a></th>
+                      <td><strong>Introduction to Combinatorics</strong></td>
+                      <td>Fall 2022</td> 
+                      <td>Paul Terwilliger</td>      
+                  </tr>
+                  
+                    <tr>
+                      <th scope="row"><a href="#cs403">COMP SCI 403</a></th>
+                      <td><strong>Internship Class CS & Data Science</strong></td>
+                      <td>Summer 2022</td>    
+                      <td>Mollie Stolbov</td>   
+                  </tr>
+                    <tr>
+                      <th scope="row"><a href="#cs539">COMP SCI/ECE 539</a></th>
+                      <td><strong>Introduction to Artificial Neural Network</strong></td>
+                      <td>Spring 2022</td>    
+                      <td>Yu Hen Hu</td>   
+                  </tr>
+                  <tr>
+                      <th scope="row"><a href="#cs524">COMP SCI/ECE 524</a></th>
+                      <td><strong>Introduction to Optimization</strong></td>
+                      <td>Spring 2022</td>  
+                      <td>Line Roald</td>
+                  </tr>
+                    <tr>
+                          <th scope="row"><a href="#cs537">COMP SCI 537</a></th>
+                          <td><strong>Introduction to Operating Systems</strong></td>
+                          <td>Spring 2022</td>
+                          <td>Michael Swift</td>
+                      </tr>
+                      <tr>
+                          <th scope="row"><a href="#math535">MATH 535 </a></th>
+                          <td><strong>Mathematical Methods in Data Science</strong></td>
+                          <td>Spring 2022</td>
+                          <td>Sebastien Roch</td>
+                      </tr>
+                      <tr>
+                          <th scope="row"><a href="#cs532">COMP SCI/ECE 532</a></th>
+                          <td><strong>Matrix Methods in Machine Learning</strong></td>
+                          <td>Fall 2021</td>
+                          <td>Eduardo Romero Arvelo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#cs559">COMP SCI 559 </a></th>
+                        <td><strong>Computer Graphics</strong></td>
+                        <td>Fall 2021</td>
+                        <td>Eftychios Sifakis</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><a href="#cs639">COMP SCI 639</a></th>
+                        <td><strong>Elective Topic in Computing: Introduction to Computer Vision</strong></td>
+                        <td>Fall 2021</td>
+                        <td>Mohit Gupta</td>
+                        
+                    </tr>
+                    <tr>
+                      <th scope="row"><a href="#math309">MATH 309 </a></th>
+                      <td><strong>Intro to Probability & Math Statatics 1</strong></td>
+                      <td>Fall 2021</td>
+                      <td>Miranda Rintoul</td>
+                  </tr>
+                      <tr>
+                          <th scope="row"><a href="#cs638">COMP SCI 638</a></th>
+                          <td><strong>Undergrad Topics-Computing: Capstone</strong></td>
+                          <td>Fall 2021</td>
+                          <td>Amber Field</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#cs577">COMP SCI 577 </a></th>
+                        <td><strong>Introduction to Algorithms</strong></td>
+                        <td>Spring 2021</td>
+                        <td>Marc Renault</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><a href="#cs564">COMP SCI 564 </a></th>
+                      <td><strong>Database Management Systems</strong></td>
+                      <td>Spring 2021</td>
+                      <td>Xiangyao Yu</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><a href="#math319">MATH 319 </a></th>
+                      <td><strong>Tech-Ordinary Differential Equation</strong></td>
+                      <td>Spring 2021</td>
+                      <td>Skylar Grey</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><a href="#cs540">COMP SCI 540 </a></th>
+                      <td><strong>Introduction to Artificial Intelligence</strong></td>
+                      <td>Fall 2020</td> 
+                      <td>Yingyu Liang et al.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><a href="#cs354">COMP SCI 354</a></th>
+                      <td><strong>Machine Organization And Programming</strong></td>
+                      <td>Fall 2020</td>
+                      <td>Deb Deppeler</td> 
+                  </tr>
+                    <tr>
+                      <th scope="row"><a href="#cs514">COMP SCI/MATH 514 </a></th>
+                      <td><strong>Numerical Analysis</strong></td>
+                      <td>Fall 2020</td>
+                      <td>Chenxi Wu</td>
+                    </tr>
+                      <tr>
+                          <th scope="row"><a href="#cs252">COMP SCI/ECE 252</a></th>
+                          <td><strong>Introduction To Computer Engineering</strong></td>
+                          <td>Summer 2020</td>   
+                          <td>Eric Hoffman</td> 
+                      </tr>
+                      <tr>
+                          <th scope="row"><a href="#cs400">COMP SCI 400</a></th>
+                          <td><strong>Programming III</strong></td>
+                          <td>Summer 2020</td> 
+                          <td>Florian Heimerl</td>                       
+                      </tr>
+                      
+                      <tr>
+                          <th scope="row"><a href="#cs368">COMP SCI 368</a></th>
+                          <td><strong>Matlab Programming</strong></td>
+                          <td>Summer 2020</td>
+                          <td>N/A</td>
+                      </tr>
+                      <tr>
+                          <th scope="row"><a href="#math421">MATH 421</a></th>
+                          <td><strong>Theory of Single Variable Calculus</strong></td>
+                          <td>Spring 2020</td>
+                          <td>Siddesh Wagh</td>
+                      </tr>
+                      <tr>
+                          <th scope="row"><a href="#math340">MATH 340</a></th>
+                          <td><strong>Elementary Matrix & Linear Algebra</strong></td>
+                          <td>Spring 2020</td>
+                          <td>Yousheng Shi</td>
+                      </tr>
+                    <tr>
+                        <th scope="row"><a href="#cs300">COMP SCI 300</a></th>
+                        <td><strong>Programming II</strong></td>
+                        <td>Spring 2020</td>
+                        <td>Gary Dahl</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><a href="#math240">MATH/COMP SCI 240</a></th>
+                        <td><strong>Intro to Discrete Mathematics</strong></td>
+                        <td>Spring 2020</td>
+                        <td>Jun Le Goh</td>
+                    </tr>
+                <tr>
+                  <th scope="row"><a href="#math234">MATH 234</a></th>
+                  <td><strong>Calculus-Functions of Variables</strong></td>
+                  <td>Fall 2019</td>
+                  <td>Sergey Bolotin</td>
+              </tr>
+              <tr>
+                  <th scope="row"><a href="#cs200">COMP SCI 200</a></th>
+                  <td><strong>Programming I</strong></td>
+                  <td>Fall 2019</td>
+                  <td>Marc Renault</td>
+              </tr>
+                  </tbody>
+              </table>
+          </div>
+      </section>
+
+
       <!--Courses List-->
       <br><br>
       <hr class="mb-5" id="list" />
       <section>
-          <h1 class="h1 text-center mb-5">Course List</h1>
+          <h1 class="h1 text-center mb-5">General Education Course List</h1>
           <div class="container wow fadeIn">
               <table class="table table-striped" data-toggle="table" data-search="true"
                   data-pagination="true">
@@ -147,159 +346,43 @@
                       </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <th scope="row"><a href="#cs561">COMP SCI/ECE 561</a></th>
-                      <td><strong>Probability and Information Theory in Machine Learning</strong></td>
-                      <td>Fall 2022</td>       
-                  </tr>
-                    <tr>
-                      <th scope="row"><a href="#cs567">COMP SCI/BMI 567</a></th>
-                      <td><strong>Medical Image Analysis</strong></td>
-                      <td>Fall 2022</td>       
-                  </tr>
-                    <tr>
-                      <th scope="row"><a href="#math475">MATH 475</a></th>
-                      <td><strong>Introduction to Combinatorics</strong></td>
-                      <td>Fall 2022</td>       
-                  </tr>
+                   
                     <tr>
                       <th scope="row"><a href="#envir100">ENVIRST 100</a></th>
                       <td><strong>Forests of the World</strong></td>
                       <td>Fall 2022</td>       
                   </tr>
                   
-                    <tr>
-                      <th scope="row"><a href="#cs403">COMP SCI 403</a></th>
-                      <td><strong>Internship Class CS & Data Science</strong></td>
-                      <td>Summer 2022</td>       
-                  </tr>
-                    <tr>
-                      <th scope="row"><a href="#cs539">COMP SCI/ECE 539</a></th>
-                      <td><strong>Introduction to Artificial Neural Network</strong></td>
-                      <td>Spring 2022</td>       
-                  </tr>
-                  <tr>
-                      <th scope="row"><a href="#cs524">COMP SCI/ECE 524</a></th>
-                      <td><strong>Introduction to Optimization</strong></td>
-                      <td>Spring 2022</td>  
-                  </tr>
-                    <tr>
-                          <th scope="row"><a href="#cs537">COMP SCI 537</a></th>
-                          <td><strong>Introduction to Operating Systems</strong></td>
-                          <td>Spring 2022</td>
-                          
-                      </tr>
-                      <tr>
-                          <th scope="row"><a href="#math535">MATH 535 </a></th>
-                          <td><strong>Mathematical Methods in Data Science</strong></td>
-                          <td>Spring 2022</td>
-                          
-                      </tr>
-                      <tr>
-                          <th scope="row"><a href="#cs532">COMP SCI/ECE 532</a></th>
-                          <td><strong>Matrix Methods in Machine Learning</strong></td>
-                          <td>Fall 2021</td>
-                          
-                      </tr>
-                      <tr>
-                        <th scope="row"><a href="#cs559">COMP SCI 559 </a></th>
-                        <td><strong>Computer Graphics</strong></td>
-                        <td>Fall 2021</td>
-                        
-                    </tr>
-                    <tr>
-                        <th scope="row"><a href="#cs639">COMP SCI 639</a></th>
-                        <td><strong>Elective Topic in Computing: Introduction to Computer Vision</strong></td>
-                        <td>Fall 2021</td>
-                        
-                    </tr>
-                    <tr>
-                      <th scope="row"><a href="#math309">MATH 309 </a></th>
-                      <td><strong>Intro to Probability & Math Statatics 1</strong></td>
-                      <td>Fall 2021</td>
-                      
-                  </tr>
+                    
                   <tr>
                       <th scope="row"><a href="#engl150">ENGL 150</a></th>
                       <td><strong>Literature & Culture of Asian America</strong></td>
                       <td>Fall 2021</td>
                       
                   </tr>
-                      <tr>
-                          <th scope="row"><a href="#cs638">COMP SCI 638</a></th>
-                          <td><strong>Undergrad Topics-Computing: Capstone</strong></td>
-                          <td>Fall 2021</td>
-                          
-                      </tr>
+                     
                       <tr>
                         <th scope="row"><a href="#am246">ASIAN AM 246 </a></th>
                         <td><strong>Southeastern Asian Refugees of Cold War</strong></td>
                         <td>Spring 2021</td>
                         
                       </tr>
-                      <tr>
-                        <th scope="row"><a href="#cs577">COMP SCI 577 </a></th>
-                        <td><strong>Introduction to Algorithms</strong></td>
-                        <td>Spring 2021</td>
-                        
-                    </tr>
-                    <tr>
-                      <th scope="row"><a href="#cs564">COMP SCI 564 </a></th>
-                      <td><strong>Database Management Systems</strong></td>
-                      <td>Spring 2021</td>
                       
-                    </tr>
-                    <tr>
-                      <th scope="row"><a href="#math319">MATH 319 </a></th>
-                      <td><strong>Tech-Ordinary Differential Equation</strong></td>
-                      <td>Spring 2021</td>
-                      
-                    </tr>
-                    <tr>
-                      <th scope="row"><a href="#cs540">COMP SCI 540 </a></th>
-                      <td><strong>Introduction to Artificial Intelligence</strong></td>
-                      <td>Fall 2020</td> 
-                    </tr>
-                    <tr>
-                      <th scope="row"><a href="#cs354">COMP SCI 354</a></th>
-                      <td><strong>Machine Organization And Programming</strong></td>
-                      <td>Fall 2020</td> 
-                  </tr>
+                    
                     <tr>
                       <th scope="row"><a href="#anthro105">ANTHRO 105 </a></th>
                       <td><strong>Principles - Biological Anthropology</strong></td>
                       <td>Fall 2020</td>
                       
                     </tr>
-                    <tr>
-                      <th scope="row"><a href="#cs514">COMP SCI/MATH 514 </a></th>
-                      <td><strong>Numerical Analysis</strong></td>
-                      <td>Fall 2020</td>
-                      
-                    </tr>
+                    
                     <tr>
                       <th scope="row"><a href="#german267">GERMAN 267 </a></th>
                       <td><strong>Yiddish Song and Jewish Experience</strong></td>
                       <td>Fall 2020</td>
                       
                     </tr>
-                      <tr>
-                          <th scope="row"><a href="#cs252">COMP SCI/ECE 252</a></th>
-                          <td><strong>Introduction To Computer Engineering</strong></td>
-                          <td>Summer 2020</td>    
-                      </tr>
-                      <tr>
-                          <th scope="row"><a href="#cs400">COMP SCI 400</a></th>
-                          <td><strong>Programming III</strong></td>
-                          <td>Summer 2020</td>                        
-                      </tr>
-                      
-                      <tr>
-                          <th scope="row"><a href="#cs368">COMP SCI 368</a></th>
-                          <td><strong>Matlab Programming</strong></td>
-                          <td>Summer 2020</td>
-                          
-                      </tr>
+                    
                       <tr>
                           <th scope="row"><a href="#classics322">CLASSICS 322</a></th>
                           <td><strong>The Romans</strong></td>
@@ -310,31 +393,13 @@
                           <td><strong>Basic Concepts of Music Theory</strong></td>
                           <td>Spring 2020</td>
                       </tr>
-                      <tr>
-                          <th scope="row"><a href="#math421">MATH 421</a></th>
-                          <td><strong>Theory of Single Variable Calculus</strong></td>
-                          <td>Spring 2020</td>
-                      </tr>
-                      <tr>
-                          <th scope="row"><a href="#math340">MATH 340</a></th>
-                          <td><strong>Elementary Matrix & Linear Algebra</strong></td>
-                          <td>Spring 2020</td>
-                      </tr>
+                      
                       <tr>
                         <th scope="row"><a href="#esl118">ESL 118</a></th>
                         <td><strong>Academic Writing II</strong></td>
                         <td>Spring 2020</td>
                     </tr>
-                    <tr>
-                        <th scope="row"><a href="#cs300">COMP SCI 300</a></th>
-                        <td><strong>Programming II</strong></td>
-                        <td>Spring 2020</td>
-                    </tr>
-                    <tr>
-                        <th scope="row"><a href="#math240">MATH 240</a></th>
-                        <td><strong>Intro to Discrete Mathematics</strong></td>
-                        <td>Spring 2020</td>
-                    </tr>
+                    
                     <tr>
                       <th scope="row"><a href="#esl117">ESL 117</a></th>
                       <td><strong>Academic Writing I</strong></td>
@@ -350,16 +415,7 @@
                     <td><strong>Plants and Humans</strong></td>
                     <td>Fall 2019</td>
                 </tr>
-                <tr>
-                  <th scope="row"><a href="#math234">MATH 234</a></th>
-                  <td><strong>Calculus-Functions of Variables</strong></td>
-                  <td>Fall 2019</td>
-              </tr>
-              <tr>
-                  <th scope="row"><a href="#cs200">COMP SCI 200</a></th>
-                  <td><strong>Programming I</strong></td>
-                  <td>Fall 2019</td>
-              </tr>
+                
                   </tbody>
               </table>
           </div>
@@ -388,7 +444,7 @@
             <tr>
               <th scope="row"><a >ECON 101</a></th>
               <td><strong>Principles-Microeconomics</strong></td>
-              <td>AP Microscopics</td>       
+              <td>AP Microeconomics</td>       
             </tr>
             <tr>
               <th scope="row"><a >MATH 221</a></th>
@@ -436,7 +492,8 @@
       <section>
           <h1 class="h1 text-center mb-5 wow bounce">Course Details</h1>
           <div class="container wow fadeIn">
-            <a id="cs561" class="fake-anchor"></a>
+            <br id="cs561"></br>
+            <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs561.png"
@@ -459,8 +516,9 @@
                       </p>
                   </div>
               </div>
+              <br id="cs567"></br>
               <br></br>
-            <a id="cs567" class="fake-anchor"></a>
+            <a  class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs567.png"
@@ -480,8 +538,9 @@
                       </p>
                   </div>
               </div>
-              <br></br>
-            <a id="math475" class="fake-anchor"></a>
+              <br id="math475"></br>
+              <br ></br>
+            <a  class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/math475.jpeg"
@@ -502,8 +561,9 @@
                       </p>
                   </div>
               </div>
+              <br id="envir100"></br>
               <br></br>
-            <a id="envir100" class="fake-anchor"></a>
+            <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/envir100.png"
@@ -524,8 +584,9 @@
                   Also, it fulfill the biological science general education requirement.</p>
                   </div>
               </div>
+              <br id="cs403"></br>
               <br></br>
-              <a id="cs403" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs403.png"
@@ -546,8 +607,9 @@
                       </p>
                   </div>
               </div>
+              <br id="cs539"></br>
               <br></br>
-              <a id="cs539" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs539.png"
@@ -570,8 +632,9 @@
                       of the semester. This course has a final project which allows you to do something cool with the artificial neural network.</p>
                   </div>
               </div>
+              <br id="cs524"></br>
               <br></br>
-              <a id="cs524" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs524.png"
@@ -593,8 +656,9 @@
                       </p>
                   </div>
               </div>
+              <br id="cs537"></br>
               <br></br>
-              <a id="cs537" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs537.png"
@@ -617,8 +681,9 @@
                       </p>
                   </div>
               </div>
+              <br id="math535"></br>
               <br></br>
-              <a id="math535" class="fake-anchor"></a>
+              <a  class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/math535.png"
@@ -640,8 +705,9 @@
                       </p>
                   </div>
               </div>
+              <br id="cs532"></br>
               <br></br>
-              <a id="cs532" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs532.png"
@@ -666,8 +732,9 @@
                       </p>
                   </div>
               </div>
+              <br id="cs559"></br>
               <br></br>
-              <a id="cs559" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs559.png"
@@ -690,8 +757,9 @@
                       </p>
                   </div>
               </div>
+              <br id="cs639"></br>
               <br></br>
-              <a id="cs639" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs639.png"
@@ -717,8 +785,9 @@
                       </p>
                   </div>
               </div>
+              <br id="math309"></br>
               <br></br>
-              <a id="math309" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/math309.png"
@@ -739,8 +808,9 @@
                       </p>
                   </div>
               </div>
+              <br id="engl150"></br>
               <br></br>
-              <a id="engl150" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/engl150.jpg"
@@ -762,8 +832,9 @@
                       </p>
                   </div>
               </div>
+              <br id="cs638"></br>
               <br></br>
-              <a id="cs638" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs638.png"
@@ -787,8 +858,9 @@
                       </p>
                   </div>
               </div>
+              <br id="am246"></br>
               <br></br>
-              <a id="am246" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/am246.jpeg" width="460" height="260"
@@ -810,8 +882,9 @@
                       </p>
                   </div>
               </div>
+              <br id="cs577"></br>
               <br></br>
-              <a id="cs577" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs577.webp"
@@ -834,8 +907,9 @@
                       </p>
                   </div>
               </div>
+              <br id="cs564"></br>
               <br></br>
-              <a id="cs564" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs564.png"
@@ -857,8 +931,9 @@
                       </p>
                   </div>
               </div>
+              <br id="math319"></br>
               <br></br>
-              <a id="math319" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/math319.png"
@@ -881,8 +956,9 @@
                       </p>
                   </div>
               </div>
+              <br id="cs540"></br>
               <br></br>
-              <a id="cs540" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs540.png"
@@ -906,8 +982,9 @@
                       </p>
                   </div>
               </div>
+              <br id="cs354"></br>
               <br></br>
-              <a id="cs354" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs354.jpeg"
@@ -928,8 +1005,9 @@
                       </p>
                   </div>
               </div>
+              <br id="anthro105"></br>
               <br></br>
-              <a id="anthro105" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/anthro105.png"
@@ -949,8 +1027,9 @@
                       </p>
                   </div>
               </div>
+              <br id="cs514"></br>
               <br></br>
-              <a id="cs514" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs514.webp"
@@ -974,8 +1053,9 @@
                       </p>
                   </div>
               </div>
+              <br id="german267"></br>
               <br></br>
-              <a id="german267" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/german267.webp"
@@ -997,8 +1077,9 @@
                       </p>
                   </div>
               </div>
+              <br id="cs252"></br>
               <br></br>
-              <a id="cs252" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs252.png"
@@ -1022,8 +1103,9 @@
                       </p>
                   </div>
               </div>
+              <br id="cs400"></br>
               <br></br>
-              <a id="cs400" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs400.png"
@@ -1044,8 +1126,9 @@
                       </p>
                   </div>
               </div>
+              <br id="classics322"></br>
               <br></br>
-              <a id="classics322" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/classics322.png"
@@ -1066,8 +1149,9 @@
                       </p>
                   </div>
               </div>
+              <br id="music151"></br>
               <br></br>
-              <a id="music151" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/music151.png"
@@ -1086,8 +1170,9 @@
                       </p>
                   </div>
               </div>
+              <br id="math421"></br>
               <br></br>
-              <a id="math421" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/math421.jpeg"
@@ -1109,8 +1194,9 @@
                       </p>
                   </div>
               </div>
+              <br id="math340"></br>
               <br></br>
-              <a id="math340" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/math340.jpeg"
@@ -1132,8 +1218,9 @@
                       </p>
                   </div>
               </div>
+              <br id="esl118"></br>
               <br></br>
-              <a id="esl118" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/esl118.png"
@@ -1156,8 +1243,9 @@
                       </p>
                   </div>
               </div>
+              <br id="cs300"></br>
               <br></br>
-              <a id="cs300" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs300.jpeg"
@@ -1178,8 +1266,9 @@
                       </p>
                   </div>
               </div>
+              <br id="math240"></br>
               <br></br>
-              <a id="math240" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/math240.jpeg"
@@ -1201,8 +1290,9 @@
                       </p>
                   </div>
               </div>
+              <br id="esl117"></br>
               <br></br>
-              <a id="esl117" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/esl117.png"
@@ -1224,8 +1314,9 @@
                       </p>
                   </div>
               </div>
+              <br id="econ302"></br>
               <br></br>
-              <a id="econ302" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/econ302.jpeg"
@@ -1247,8 +1338,9 @@
                       </p>
                   </div>
               </div>
+              <br id="botany240"></br>
               <br></br>
-              <a id="botany240" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/botany240.jpeg"
@@ -1269,8 +1361,9 @@
                       </p>
                   </div>
               </div>
+              <br id="math234"></br>
               <br></br>
-              <a id="math234" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/math234.JPG"
@@ -1291,8 +1384,9 @@
                       </p>
                   </div>
               </div>
+              <br id="cs200"></br>
               <br></br>
-              <a id="cs200" class="fake-anchor"></a>
+              <a class="fake-anchor"></a>
               <div class="row">
                   <div class="col-md-5">
                       <div class="view overlay zoom"> <img src="images/courses/cs200.png"
